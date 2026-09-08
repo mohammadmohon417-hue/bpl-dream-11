@@ -36,7 +36,7 @@ const AvailablePlayers = ({ players }: { players: Player[] }) => {
             </h2>
 
             <div className="flex items-center gap-2 mt-2 text-sm text-gray-500">
-              <span>🌍</span>
+              <img  className="height-[100px] w-[50px]" src="https://cdn.britannica.com/67/6267-050-8A26DFEE/Flag-Bangladesh.jpg" alt="flag" />
               <span>{player.origin}</span>
             </div>
 
